@@ -1,0 +1,27 @@
+Various refactoring methods are:
+
+A. Composing methods:  
+  1. Extract Method: Extraction of a piece of code into a separate method. If we have a code fragment that appears in multiple places within 
+  the code. We have a code fragment that can be grouped together. We can Turn this fragment into a method whose name explains the purpose 
+  of this method.
+  2. Replace Temp with Query:  Replacement of references to the temporary variable with the method calls. It facilitates method extraction.
+  Extract the expression into a method. Replace all references to the temp with the expression. The new method can then be used in other
+  methods.
+  3. Inline Method: A method’s body is just as clear as its name. Put the method’s body into the body of its callers and remove the method.
+ 
+B. Moving features between objects:
+  1. Move Method:  Moving method to another class when a class has too much behaviour or when classes collaborate a lot and are too 
+  highly coupled. Moving method is very important for refactoring.
+  2. Inline Class: If a class isn’t doing very much. We can move all its features into another class  and delete it.
+
+C. Organizing data: 
+  1. Replace Type Code with Class: Replacement of state constants with type safe Enum. Replace the number with a new class.
+  2. Change Value to Reference: When a class has many equal instances then is better to replace it  with a  single object or turn the
+  object into a reference object.
+  3. Replace Array With Object: If we have an array in which certain elements mean different things. We can replace the array with an 
+  object that has a field for each element.
+  
+  
+  REFERENCE:
+  International Journal of Advanced Research in Computer Science and Software Engineering, Vol.2 , Issue 12, December 2012.
+  Anshu Rani, Harpreet Kaur.
