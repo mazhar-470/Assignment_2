@@ -1,0 +1,9 @@
+Agile approach to software development focuses on delivering value early and reduce overhead. In a traditional development approach, there 
+are three major stages. Planning, Building and Testing. To develop a software in traditional or waterfall method, first careful planning 
+needs to be done. After all the planning is finished, building phase starts which strictly follows the planning done in the first phase.
+After building comes testing. But what if the requirements change or new requirements are added? In that case the previous plan will not 
+work. As a result, the development process needs to start over again from the very beginning. Agile approach addresses this issue. Agile 
+approach also has three major stages similar to the traditional approach. But agile approach goes over these stages several times. Each 
+iteration delivers some level of value which means each iteration delivers a new working version of the software. Each iteration addresses 
+different requirements that needs to be added to the software. As a result, even if there is a change in the requirement, agile method can
+quickly address this and deliver value. 
